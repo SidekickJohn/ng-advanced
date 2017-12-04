@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import {BasketComponent} from "./basket/basket.component";
 
 export const APP_ROUTES: Routes = [
   {
@@ -14,5 +15,11 @@ export const APP_ROUTES: Routes = [
   {
     path: '**',
     redirectTo: 'home'
+  },
+  {
+    path: 'basket',
+    component: BasketComponent,
+    outlet: 'aux'
   }
 ]
+
