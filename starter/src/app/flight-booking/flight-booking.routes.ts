@@ -10,8 +10,9 @@ import {FlightResolver} from "./flight-search/flight.resolver";
 
 export const FLIGHT_BOOKING_ROUTES: Routes = [
   {
-    path: 'flight-booking',
+    path: '',
     component: FlightBookingComponent,
+    //canActivate: [AuthGuard],
     children: [
       {
         path: 'flight-search',
@@ -19,8 +20,7 @@ export const FLIGHT_BOOKING_ROUTES: Routes = [
       },
       {
         path: 'airport-search',
-        component: AirportSearchComponent,
-        canActivate: [AuthGuard]
+        component: AirportSearchComponent
       },
       {
         path: 'passenger-search',

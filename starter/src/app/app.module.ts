@@ -6,20 +6,20 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {FlightBookingModule} from './flight-booking/flight-booking.module';
 import {HomeComponent} from './home/home.component';
 import {RouterModule} from '@angular/router';
 import {APP_ROUTES} from './app.routes';
 import {BasketComponent} from "./basket/basket.component";
 import {SharedModule} from "./shared/shared.module";
+import {CustomPreloadingStrategy} from "./shared/preloading/custom-preloading-strategy";
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpClientModule,
-    FlightBookingModule,
-    SharedModule,
-    RouterModule.forRoot(APP_ROUTES)
+    //FlightBookingModule,
+    SharedModule.forRoot(),
+    RouterModule.forRoot(APP_ROUTES, {preloadingStrategy: CustomPreloadingStrategy})
   ],
   declarations: [
     AppComponent,

@@ -18,7 +18,7 @@ import {FlightResolver} from "./flight-search/flight.resolver";
   imports: [
     CommonModule,
     FormsModule,
-    SharedModule,
+    SharedModule.forChild(),
     RouterModule.forChild(FLIGHT_BOOKING_ROUTES)
   ],
   declarations: [
