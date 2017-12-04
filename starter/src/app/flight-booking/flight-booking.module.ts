@@ -12,6 +12,7 @@ import { FlightEditComponent } from './flight-edit/flight-edit.component';
 import {AirportService} from "./airport.service";
 import {AirportSearchComponent} from "./airport/airport.component";
 import {FlightBookingComponent} from "./flight-booking.component";
+import {FlightResolver} from "./flight-search/flight.resolver";
 
 @NgModule({
   imports: [
@@ -30,7 +31,8 @@ import {FlightBookingComponent} from "./flight-booking.component";
   ],
   providers: [
     FlightService,
-    AirportService
+    AirportService,
+    FlightResolver
   ],
   exports: [
     FlightSearchComponent

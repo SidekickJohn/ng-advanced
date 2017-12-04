@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee9dad0a-2ef5-4ab7-874a-e604dd72d4da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starter/src/app/basket/basket.component.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starter/src/app/basket/basket.component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starter/src/app/basket/basket.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight.resolver.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starter/src/app/shared/auth/auth.guard.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starter/src/app/shared/auth/auth.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/starter/src/app/shared/deactivation/can-deactivate.guard.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/app.component.html" afterPath="$PROJECT_DIR$/starter/src/app/app.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/app.module.ts" afterPath="$PROJECT_DIR$/starter/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/app.routes.ts" afterPath="$PROJECT_DIR$/starter/src/app/app.routes.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/sidebar/sidebar.component.html" afterPath="$PROJECT_DIR$/starter/src/app/sidebar/sidebar.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.module.ts" afterPath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.routes.ts" afterPath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.routes.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.html" afterPath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.ts" afterPath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight.service.ts" afterPath="$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/starter/src/app/home/home.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/home/home.component.ts" afterPath="$PROJECT_DIR$/starter/src/app/home/home.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/starter/src/app/shared/shared.module.ts" afterPath="$PROJECT_DIR$/starter/src/app/shared/shared.module.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,12 +29,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sidebar.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/starter/src/app/sidebar/sidebar.component.html">
+      <file leaf-file-name="flight-edit.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flight-edit.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#312#318#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flight-booking.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-              <folding />
+              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,9 +71,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -58,17 +91,27 @@
         <option value="$PROJECT_DIR$/starter/src/app/flight-booking/airport/airport.component.html" />
         <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.component.ts" />
         <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.component.html" />
-        <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.module.ts" />
-        <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.routes.ts" />
         <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-card/flight-card.component.html" />
         <option value="$PROJECT_DIR$/starter/src/app/basket.component.ts" />
         <option value="$PROJECT_DIR$/starter/src/app/basket/basket.component.html" />
         <option value="$PROJECT_DIR$/starter/src/app/basket/basket.component.ts" />
         <option value="$PROJECT_DIR$/starter/src/app/basket/basket.component.css" />
-        <option value="$PROJECT_DIR$/starter/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/starter/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/starter/src/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/starter/src/app/sidebar/sidebar.component.html" />
+        <option value="$PROJECT_DIR$/starter/src/app/shared/auth/auth.service.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/shared/auth/auth.guard.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/starter/src/app/shared/deactivation/can-deactivate.guard.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/shared/shared.module.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight.service.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight.resolver.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.module.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.routes.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.ts" />
+        <option value="$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.html" />
       </list>
     </option>
   </component>
@@ -85,7 +128,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="width" value="960" />
     <option name="height" value="1160" />
   </component>
@@ -136,7 +179,7 @@
               <item name="starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="basket" type="462c0819:PsiDirectoryNode" />
+              <item name="flight-booking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ng-advanced" type="b2602c69:ProjectViewProjectNode" />
@@ -144,7 +187,16 @@
               <item name="starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="sidebar" type="462c0819:PsiDirectoryNode" />
+              <item name="flight-booking" type="462c0819:PsiDirectoryNode" />
+              <item name="flight-edit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ng-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ng-advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,26 +239,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512377445394</updated>
-      <workItem from="1512377447921" duration="4884000" />
+      <workItem from="1512377447921" duration="10093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4884000" />
+    <option name="totallyTimeSpent" value="10093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1160" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12328767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2537961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28530258" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2897561" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -219,6 +271,38 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/Observer.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/OuterSubscriber.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/InnerSubscriber.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/Subscriber.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/interfaces.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/Subscription.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/Operator.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/Scheduler.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/Observable.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/tryCatch.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/root.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/isArrayLike.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/UnsubscriptionError.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/noop.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/pipe.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/isFunction.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/isPromise.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/isArray.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/subscribeToResult.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/errorObject.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/toSubscriber.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/util/isObject.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/symbol/iterator.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/symbol/observable.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/symbol/rxSubscriber.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/scheduler/Action.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/observable/ErrorObservable.js" />
+        <option value="$PROJECT_DIR$/starter/node_modules/rxjs/src/observable/IfObservable.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -278,29 +362,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight-search.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/starter/src/app/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,34 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-card/flight-card.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
@@ -392,14 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starter/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -441,31 +471,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/starter/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/starter/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/starter/src/app/app.routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,9 +489,176 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/starter/src/app/sidebar/sidebar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        <state relative-caret-position="663">
+          <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/app.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/shared/auth/auth.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/shared/auth/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight-search.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/shared/deactivation/can-deactivate.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/node_modules/rxjs/src/Observable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="58" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/shared/shared.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-search/flight.resolver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-edit/flight-edit.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#312#318#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starter/src/app/flight-booking/flight-booking.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

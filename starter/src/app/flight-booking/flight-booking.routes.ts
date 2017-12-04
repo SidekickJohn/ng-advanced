@@ -4,6 +4,9 @@ import { PassengerSearchComponent } from './passenger-search/passenger-search.co
 import { FlightEditComponent } from './flight-edit/flight-edit.component';
 import {AirportSearchComponent} from "./airport/airport.component";
 import {FlightBookingComponent} from "./flight-booking.component";
+import {AuthGuard} from "../shared/auth/auth.guard";
+import {CanDeactivateGuard} from "../shared/deactivation/can-deactivate.guard";
+import {FlightResolver} from "./flight-search/flight.resolver";
 
 export const FLIGHT_BOOKING_ROUTES: Routes = [
   {
@@ -16,7 +19,8 @@ export const FLIGHT_BOOKING_ROUTES: Routes = [
       },
       {
         path: 'airport-search',
-        component: AirportSearchComponent
+        component: AirportSearchComponent,
+        canActivate: [AuthGuard]
       },
       {
         path: 'passenger-search',
@@ -24,7 +28,11 @@ export const FLIGHT_BOOKING_ROUTES: Routes = [
       },
       {
         path: 'flight-edit/:id',
-        component: FlightEditComponent
+        component: FlightEditComponent,
+        canDeactivate: [CanDeactivateGuard],
+        resolve: {
+          flight: FlightResolver
+        }
       }
     ]
   }
