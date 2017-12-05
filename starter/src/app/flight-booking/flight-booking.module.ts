@@ -13,12 +13,14 @@ import {AirportService} from "./airport.service";
 import {AirportSearchComponent} from "./airport/airport.component";
 import {FlightBookingComponent} from "./flight-booking.component";
 import {FlightResolver} from "./flight-search/flight.resolver";
+import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     SharedModule,
+    TranslateModule.forChild(),
     RouterModule.forChild(FLIGHT_BOOKING_ROUTES)
   ],
   declarations: [

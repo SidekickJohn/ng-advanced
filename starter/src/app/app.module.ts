@@ -1,7 +1,7 @@
 import {NavbarComponent} from './navbar/navbar.component';
 import {SidebarComponent} from './sidebar/sidebar.component';
 
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
@@ -12,6 +12,12 @@ import {RouterModule} from '@angular/router';
 import {APP_ROUTES} from './app.routes';
 import {BasketComponent} from "./basket/basket.component";
 import {SharedModule} from "./shared/shared.module";
+import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+
+export function createLoader(http: HttpClient) {
+  return new TranslateHttpLoader (http, './assets/i18n/', '.json');
+}
 
 @NgModule({
   imports: [
@@ -19,6 +25,13 @@ import {SharedModule} from "./shared/shared.module";
     HttpClientModule,
     FlightBookingModule,
     SharedModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: createLoader,
+        deps: [HttpClient]
+      }
+    }),
     RouterModule.forRoot(APP_ROUTES)
   ],
   declarations: [
