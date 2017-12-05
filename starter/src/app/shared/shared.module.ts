@@ -4,6 +4,8 @@ import { CityPipe } from './pipes/city.pipe';
 import {AuthService} from "./auth/auth.service";
 import {AuthGuard} from "./auth/auth.guard";
 import {CanDeactivateGuard} from "./deactivation/can-deactivate.guard";
+import {TabComponent} from "./components/tab.component";
+import {TabbedPaneComponent} from "./components/tabbed-pane-component/tabbed-pane.component";
 
 @NgModule({
   imports: [
@@ -15,10 +17,14 @@ import {CanDeactivateGuard} from "./deactivation/can-deactivate.guard";
     CanDeactivateGuard
   ],
   declarations: [
-    CityPipe
+    CityPipe,
+    TabComponent,
+    TabbedPaneComponent
   ],
   exports: [
-    CityPipe
+    CityPipe,
+    TabComponent,
+    TabbedPaneComponent
   ]
 })
 export class SharedModule { }
